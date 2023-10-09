@@ -1,0 +1,353 @@
+<html>
+
+<head>
+  <script>
+    let data = 0;
+    function minus() {
+      data = data - 1;
+      document.getElementById('output').value = data;
+    }
+    function plus() {
+      data = data + 1;
+      document.getElementById('output').value = data;
+    }
+  </script>
+
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+</head>
+
+<body>
+
+
+  <div class="container-fluid main_container">
+
+    <div class="div1">
+      <div class="col">Free Shipping on orders above ₹ 500
+      </div>
+    </div>
+    <div class="container">
+      <div class="row al_center" style="min-height:60px">
+        <div class="col-sm-4 col-lg-auto col-md-4 col-4 in_flex 1h__1"></div>
+        <div class="row m-2">
+          <div class="col-3  text-center"><img style="width: 210px; height: 51px; padding: 5px 0px;"
+              src="assets/images/butter.avif" alt="butterfly-edu">
+            </div>
+          <div class="col-6 ">
+            <div class="form-search "><input class="search-input" type="text"
+                placeholder="I'm shopping for for...."><button class="search-button">Search</button></div>
+          </div>
+
+          <div class="col-3  text-center ">
+
+            <i style="color:#f79322; margin-left:120px; padding: 20px;" class="bi bi-person"></i>
+            <i style="color:#f79322;margin-left:30px;  " class="bi bi-cart"></i>
+            <span
+              style="border:1px solid #f79322;margin-left:5px;padding:5px ; border-radius: 50%; width: 30px;height:10px;  color:rgb(229, 229, 229); font-family: 900;font-size:15px ; background-color: #f79322;">0</span>
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <div class="container container-lg container-md container-fluid">
+      <div style=" height:60px;width: 100%; background-color: #f6f6f8;;">
+        <p
+          style="padding-top: 18px; margin-left: 180px; font-family: Lato; font-size: 15px;line-height: 1.75;color: #4d5959; font-weight: 400;">
+          Home > 155 pcs English Magnetic Letters | 3+ years</p>
+      </div>
+
+      <div class="row" style="margin-top: 35px;">
+        <div class="col-6">
+          <div style="height:600px; width:auto;"><img src="assets/images/buttermain.webp" alt="butterfly-images"
+              style="cursor: grab; height: 600px; width: 100%;"></div>
+          <div class="row" style="margin-top: 10px;">
+            <div class="col-3" style="border:1px solid white; height: 140px; width:24%; margin:2px; "><img
+                src="assets/images/butter2.webp" height="140px" width="100%" alt=""></div>
+            <div class="col-3" style="border:1px solid white; height: 140px; width:24%; margin:2px; "><img
+                src="assets/images/butter3.jpg" height="140px" width="100%" alt=""></div>
+            <div class="col-3" style="border:1px solid white; height: 140px; width:24%; margin:2px; "><img
+                src="assets/images/butter4.webp" height="140px" width="100%" alt=""></div>
+            <div class="col-3" style="border:1px solid white; height: 140px; width:24%; margin:2px; "><img
+                src="assets/images/butter5.webp" height="140px" width="100%" alt=""></div>
+          </div>
+        </div>
+
+        <div class="col-6" style="margin-top: 20px; height: 700px;">
+          <h5 style="font-family: montserrat; font-weight: 600; font-size: 20px; color: #000; line-height: 1.428;
+                letter-spacing: 2px;vertical-align: baseline;">155 pcs English Magnetic Letters
+            | 3+ years</h5>
+          <div style="height:50px; width:80%; ">
+            <span><i style="color: #f79322;" class="bi bi-star-fill"></i><i style="color: #f79322;"
+                class="bi bi-star-fill"></i><i style="color: #f79322;" class="bi bi-star-fill"></i><i
+                style="color: #f79322;" class="bi bi-star-fill"></i><i style="color: #f79322;"
+                class="bi bi-star-half"></i></span> <span style="color: #212020;"> 4.7 (199 reviews)</span>
+          </div>
+          <div style="display: flex;  " class="row">
+            <div class="col-5"> <del
+                style="font-size: 22px; font-family: lato;color: #999999; margin-right: 10px;">Rs.999.00</del>
+              <ins style="font-size: 22px; font-family: lato;color:#f79322 ; margin-right: 10px;">Rs.
+                799.00</ins>
+            </div>
+            <div class="col-5"></div>
+            <div class="col-2" style="color: #4eb0be; font-size: 15px; font-family: lato;"> <span>In
+                Stock</span></div>
+          </div>
+          <hr>
+
+          <form>
+            <div class="div-stock">
+              <div style="border:1px solid #878787; border-radius: 20px; height:40px; width: 138px; ">
+                <button onclick="minus()"
+                  style="border:none; border-radius:20px ;height:35px;width: 40px; margin:1px; padding: 3px; padding-bottom: 5px;background-color: white; ">-</button>
+                <input id="output" type="number" value="1"
+                  style="border:none;text-align: center; height:35px;width: 50px; ">
+                <button onclick="plus()"
+                  style="border:none; border-radius:20px ;height:35px;width: 40px;margin:1px; padding: 3px; padding-bottom: 5px;background-color: white; ">+</button>
+              </div>
+
+              <div>
+                <button class="button-addcart">Add to Cart</button>
+              </div>
+              <div class="icon-1"><i class="bi bi-suit-heart"></i></div>
+              <div class="icon-1"><i class="bi bi-arrow-repeat"></i></div>
+            </div>
+            <div><button class="buy">BUY IT NOW</button></div>
+          </form>
+          <p class="para">💥 Get extra 10% OFF on order Above Rs.1000 use code: <b>FLAT10</b></p>
+          <p class="para">📦 Free Shipping on all Orders above Rs.500</p>
+          <p class="para">🚚 Cash On Delivery (COD) available</p>
+          <p class="para">⚒️ Broken/ lost parts? Get free replacements</p>
+          <p class="para">🔙 10 day returns </p>
+
+
+        </div>
+      </div>
+
+      <div class="col " style="padding: 50px 0px 0px;">
+        <ul>
+          <li style="margin-top: 5px; text-align: center; margin-right: 30px;font-weight:750; color: #222222;">
+            Description</li>
+        </ul>
+      </div>
+
+
+
+
+      <div style="height: 2020px; width: 100%; padding: 25px 0px; background-color:#1fb4b0;">
+        <div class="row">
+          <div class="col-4 text-center mt-4"><img class="des-image" src="assets/images/des1.jpeg">
+            <div class="div-des"><span class="span1">World class Edutainment</span></div>
+          </div>
+
+          <div class="col-4 text-center mt-4"><img class="des-image" src="assets/images/des2.jpeg">
+            <div class="div-des"><span class="span1">Multiple letter sets: Capital and Small</span></div>
+          </div>
+
+          <div class="col-4 text-center mt-4"><img class="des-image" src="assets/images/des3.jpeg">
+            <div class="div-des"><span class="span1">Ideal for Group Activity also</span></div>
+          </div>
+
+          <div class="col-4 text-center mt-4"><img class="des-image" src="assets/images/des4.jpeg">
+            <div class="div-des"><span class="span1">Increase Active Participation</span></div>
+          </div>
+
+          <div class="col-4 text-center mt-4"><img class="des-image" src="assets/images/des5.jpeg">
+            <div class="div-des"><span class="span1">Happy Family Time with this Fridge Playset</span></div>
+          </div>
+
+          <div class="col-4 text-center mt-4"><img class="des-image" src="assets/images/es6.jpeg">
+            <div class="div-des"><span class="span1">Safe Product Material and Game Play</span></div>
+          </div>
+
+          <div class="col-4 text-center mt-4"><img class="des-image" src="assets/images/des7.jpeg">
+            <div class="div-des"><span class="span1">Engagement increased, Blue-ray Consumption Decreased
+              </span></div>
+          </div>
+
+          <div class="col-4 text-center mt-4"><img class="des-image" src="assets/images/des8.jpeg">
+            <div class="div-des"><span class="span1">Perfect Gift For 3+ Years old,
+
+                Help them Grow</span></div>
+          </div>
+
+          <div class="col-4 text-center mt-4"><img class="des-image" src="assets/images/des9.jpeg">
+            <div class="div-des"><span class="span1">Fun and Handson for Fine-Motor and Visual-Motor Skill
+                Development</span></div>
+          </div>
+
+          <div class="col-4 text-center mt-4"><img class="des-image" src="assets/images/des10.jpeg">
+            <div class="div-des"><span class="span1">WThe Pieces are Sturdy, Colourful, and Reusable
+                Endlessly</span></div>
+          </div>
+
+          <div class="col-4 text-center mt-4"><img class="des-image" src="assets/images/des11.jpg">
+            <div class="div-des"><span class="span1">Easy to Play Word Games, Picture Guessing, </span>
+            </div>
+          </div>
+
+          <div class="col-4 text-center mt-4"><img class="des-image" src="assets/images/des12.jpeg">
+            <div class="div-des"><span class="span1">Bring home the joy of early learning</span></div>
+          </div>
+        </div>
+
+
+
+
+        <table>
+          <tr>
+            <td>Brand</td>
+            <td>Butterfly Edufields</td>
+          </tr>
+          <tr>
+            <td>Product Generic Name</td>
+            <td> Magnetic Letters</td>
+          </tr>
+          <tr>
+            <td>Product Identifier</td>
+            <td>345</td>
+          </tr>
+          <tr>
+            <td>Mfg / Mktd / Packed by</td>
+            <td>Butterfly Edufields Pvt Ltd, Office 507, Amsri Eden Square, Secunderabad 500003.</td>
+          </tr>
+          <tr>
+            <td>Educational Objective(s)</td>
+            <td>STEM</td>
+          </tr>
+          <tr>
+            <td>Manufacturer recommended age</td>
+            <td> 3+</td>
+          </tr>
+          <tr>
+            <td>Country of Origin</td>
+            <td>India</td>
+          </tr>
+          <tr>
+            <td>Item Dimensions LxWxH</td>
+            <td>5.3 x 22.8 x 33 Centimeters</td>
+          </tr>
+          <tr>
+            <td>Language</td>
+            <td>English</td>
+          </tr>
+          <tr>
+            <td>Commodity / Colour</td>
+            <td>Multicolour</td>
+          </tr>
+          <tr>
+            <td>Month, Year of Mfg</td>
+            <td>2022</td>
+          </tr>
+          <tr>
+            <td>1 U Contains</td>
+            <td>Required Components to Assemble final product & Play further.</td>
+          </tr>
+          <tr>
+            <td>Net Weight</td>
+            <td>400 g</td>
+          </tr>
+          <tr>
+            <td>MRP ( Incl. of all Taxes )</td>
+            <td>Rs. 999</td>
+          </tr>
+          <tr>
+            <td>Manufacturer Details</td>
+            <td>Butterfly Edufields Pvt Ltd, Office 507, Amsri Eden Square, Secunderabad 500003.</td>
+          </tr>
+          <tr>
+            <td>Customer Care Contact no.</td>
+            <td>04416587</td>
+          </tr>
+          <tr>
+            <td>Customer Care Emai id</td>
+            <td> connect@butterflyfields.com</td>
+          </tr>
+          <tr>
+            <td>BIS Certified</td>
+            <td>Yes</td>
+          </tr>
+        </table>
+
+
+
+
+
+
+
+
+
+        <div class="container">
+          <h3
+            style="height: 28.55px; width: 100%;color: #ff6c00; font-family: montserrat; margin: 0px 10px; text-align: center;">
+            You may also like
+          </h3>
+          <div class="row">
+            <div class="col-4 text-center mt-4" style="box-shadow:2px 2px 2px 4px #cda578;;"><img class="des-image"
+                src="assets/images/des13.webp">
+              <div class="div-des"><span class="span2">ENGLISH MAGNETIC & WOODEN ALPHABETS | 3+
+                  YEARS</span></div>
+            </div>
+
+            <div class="col-4 text-center mt-4" style="box-shadow:2px 2px 2px 4px #cda578; "><img class="des-image"
+                src="assets/images/des14.webp">
+              <div class="div-des"><span class="span2">WOODEN ALPHABETS CONSTRUCTION PUZZLES, PACK OF 3 |
+                  BIRTHDAY RETURN GIFTS FOR KIDS 3+ YEARS</span></div>
+            </div>
+
+            <div class="col-4 text-center mt-4" style="box-shadow:2px 2px 2px 4px #cda578;"><img class="des-image"
+                src="assets/images/des15.webp">
+              <div class="div-des"><span class="span2">HINDI MAGNETIC LETTERS | 3+ YEARS</span></div>
+            </div>
+
+
+
+          </div>
+
+
+
+
+
+
+        </div>
+        <div class="row position-sticky bottom-0  bg-white text-white " style="box-shadow:8px 2px 11px 9px #888888;">
+          <div class="col-1 mt-4"><img src="assets/images/des1.jpeg" height="60" width="60"></div>
+          <div class="col-6 mt-4"
+            style="padding-top: 18px; margin-left: 25px; font-family: Lato; font-size: 18px;line-height: 1.75;color: #4d5959; font-weight: 400;">
+            155 pcs English Magnetic Letters | 3+ years</div>
+
+
+          <div class="col row mt-4" style="display: flex; ">
+            <div style="width:auto"><del style="font-size: 22px; font-family: lato;color: #999999; ">Rs.999.00</del>
+            </div>
+
+            <div style="width:auto"><ins style="font-size: 22px; font-family: lato;color:#f79322 ;">Rs.
+                799.00</ins></div>
+
+            <div style="border:1px solid #878787;  height:40px; width: 95px; ">
+              <button
+                style="border:none; height:35px;width: 15px; margin:1px; padding: 2px; padding-bottom: 5px;background-color: white; "><i
+                  class="bi bi-dash-lg"></i></button>
+              <input type="text" value="1" style="border:none;text-align: center; height:35px;width: 30px; ">
+              <button
+                style="border:none; height:35px;width: 20px;margin:1px; padding: 2px; padding-bottom: 5px;background-color: white; "><i
+                  class="bi bi-plus-lg"></i></button>
+            </div>
+
+
+            <div style="width:auto"><button class="button-addcart" style="border-radius: 0%;">Add to
+                Cart</button></div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
